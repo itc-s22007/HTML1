@@ -1,0 +1,40 @@
+/*.body {
+    width: 100%;
+    background-color: #009999;
+    height: 100vh;
+}*/ 
+.main {
+   background-color: #009999;
+   width: 340px;
+   margin: 0 auto;
+   transform: skewY(0.01deg);
+   margin-top: 50px;
+   padding-top: 35px;
+}
+.main::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #D1E28A;
+    transform: skewY(9deg);
+    z-index: -1;
+    background-size: 3%;
+    height: 180px;
+    margin-top: 40px;
+}
+.main > h1 {
+  text-align: center;
+  margin: 30px;
+  font-size: 1.5em;
+  letter-spacing: 0.05rem;
+
+}
+.main > p{
+  text-align: center;
+  margin: 0.5px;
+  padding: 0.05em;
+} 
+

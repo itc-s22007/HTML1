@@ -1,0 +1,42 @@
+.main {
+  background-color: #fff;
+  width: 298px;
+  padding: 25px;
+  position: relative;
+  border: solid #ccc;
+}
+.main > h1 {
+  border-bottom: 1px solid #999;
+  padding-bottom: 5px;
+  text-align: center;
+}
+.main > h2 {
+  margin: 10px 0;
+}
+.main > h3 {
+  margin: 5px 0;
+}
+.main > h4 {
+  margin: 10px 0;
+}
+.main > p {
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 20px;
+}
+.main:before {
+  border: 20px solid #ccc;
+  border-bottom-color: #fff;
+  border-right-color: #fff;
+  position: absolute;
+  content: '';
+  bottom: -1px;
+  right: -1px;
+}
+.main > h1, .main > h2, .main > h3, .main > h4, .main > p {
+   color: #333;
+   padding: 0;
+   margin: 0;
+   font-family: serif;
+}
+
